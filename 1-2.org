@@ -1,0 +1,17 @@
+* Getting Acquainted with the PowerBI Interface
+  - An essential first step for users to effectively navigate and utilize PowerBI's comprehensive features.
+
+* Importing Data from Pre-Formatted Web Tables
+  - Discusses how to directly import data into PowerBI from tables available on web pages.
+  - This process simplifies the extraction of structured data from websites into PowerBI for analysis.
+
+* Basics of APIs
+  - Introduces the concept of Application Programming Interfaces (APIs) and their relevance in data import processes.
+  - Covers how APIs can be used to retrieve fresh data dynamically from web services.
+
+* The PowerAutomate Interface
+  - PowerAutomate, a sister tool to PowerBI, offers capabilities to automate data retrieval and integration processes.
+  
+** Using PowerAutomate to Retrieve API Data
+   - Describes how to set up workflows in PowerAutomate to connect with APIs and fetch data automatically.
+   - This section will detail the steps to configure PowerAutomate to access API data and integrate it with PowerBI for real-time analytics.

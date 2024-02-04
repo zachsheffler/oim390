@@ -1,0 +1,58 @@
+* Getting Acquainted with the PowerBI Interface
+  - Introduction to the PowerBI interface is crucial for effectively utilizing its capabilities.
+  - Familiarity with the interface allows for seamless navigation and utilization of its features.
+
+* PowerBI Data Import Basics
+  - Importing data into PowerBI is crucial for visualizing and analyzing data from various sources.
+  - Supports a wide range of data sources including files, databases, and cloud services.
+  - The import process varies slightly depending on the source.
+
+* Importing from a File
+  - Files are common sources of data for PowerBI, supporting various file types.
+
+** CSV, Plain Text
+   - Simple formats for storing data.
+   1. Select "Get Data" from the Home ribbon.
+   2. Choose "Text/CSV" and navigate to the file.
+   3. Preview data and adjust settings (encoding, delimiter, etc.).
+   4. Click "Load" to import the data.
+   - Suggested Supporting Material: Screenshots of the import process.
+
+** Excel
+   - Allows importing data from tables and ranges.
+   1. Select "Get Data" > "Excel".
+   2. Browse and select the Excel file.
+   3. PowerBI displays the workbook's contents for selection.
+   4. Click "Load" to import.
+   - Suggested Supporting Material: Screenshots showing Excel file selection and import options.
+
+** Access
+   - For importing complex data structures from Access databases.
+   1. Select "Get Data" > "Access Database".
+   2. Select the Access database file (.accdb).
+   3. Choose tables or queries to import.
+   4. Click "Load" to import.
+   - Suggested Supporting Material: Screenshots of selecting an Access database.
+
+* Importing from SQL
+  - PowerBI supports direct import from SQL databases, including MS SQL Server and generic SQL databases.
+
+** MS SQL Server
+   - Connect directly to the server to import data.
+   1. Choose "Get Data" > "SQL Server".
+   2. Enter server and database name, specify SQL query if needed.
+   3. Select tables or views to import.
+   4. Click "Load" to import.
+   - Suggested Supporting Material: Screenshots of SQL Server connection window.
+
+** Generic SQL Imports
+   - Similar process using the appropriate connector for other SQL databases.
+   1. Select "Get Data" > "More..." for all connectors.
+   2. Select the connector for the SQL database type.
+   3. Enter connection details (server name, database name, SQL query).
+   4. Choose the data to import and click "Load".
+   - Suggested Supporting Material: Screenshots of selecting a generic SQL connector.
+
+* Conclusion
+  - Mastering data import into PowerBI enables effective data analysis and visualization.
+  - Screenshots and step-by-step guides aid in learning the import processes.
