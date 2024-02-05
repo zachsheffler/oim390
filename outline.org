@@ -1,0 +1,38 @@
+* About the Course
+** Course Tools
+* Data
+** Data Types
+** Data Importation
+* Design
+** Color
+** Chartjunk
+** Data-Ink
+
+* Comparisons
+** 
+* Distributional Analyses
+** Histograms
+* Correlation
+* Time
+* Parts-to-Whole
+* Multivariate
+* Dashboards (2x)
+* *Exam*
+
+
+* Cognitive Topics
+** Preattentional Processing
+** 
+
+* Accessible Design
+** Colorblindness
+
+* Bias
+** Bias in the real world
+** Bias in collection
+** Bias in analysis
+
+* Data Acquisition
+** APIs
+** Built-in functions
+** Hostile Acquisition
