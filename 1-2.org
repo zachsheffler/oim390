@@ -93,11 +93,16 @@ Now, if I did this without the API key, I'd get something like this:
 Error codes are expressed as HTTP errors; you're probably familiar with 404 (resource not found; usually the URL is mistyped). Other common codes are 401 (not authorized; what we got above), 400 (the request wasn't formatted correctly), 403 (you're authenticated but not allowed to see that), and 408 (whatever was being done took too long). Any error code that doesn't start with a 4 is /probably/ not your fault, but don't sell yourself short.
 
 * Getting this into PowerBI
-So, we have our 
+So, we have our API set up - let's get this into PowerBI.
+
+The specifics of how you do this will vary by the nature of the API. Sometimes the API will return a full dataset as you need it. If that's the case, then you can probably knock off early.
+
+The OpenWeatherMap API isn't like that. Rather, it presents the state of the weather right now, so we're going to want to /append/ its value to the end of a data source. This is especially useful if you run the API at a predictible interval (say, every 24 hours) and then put whatever value it returns at the bottom of a spreadsheet. That would be handy, but how do we do that? Luckily, [[https://make.powerautomate.com/][Power Automate]] exists.
+
 
 
 * Footnotes
 
 [fn:2] Such as if you wind up in conversation with a midwestern computer and need an impromptu topic to vamp on.
 
-[fn:1] JavaScript Object Notation; see 1.1 
+[fn:1] JavaScript Object Notation; see [[https://en.wikipedia.org/wiki/JSON][Wikipedia]]
